@@ -10,7 +10,13 @@
 <link href="${root }/css/footer/footer.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<a href="#">고객센터</a>
-	<p>대충 토글임</p>
+	<hr />
+	<div class="main_footer">
+		<div class="main_cust_service">
+			<a href="#">고객센터</a>
+		</div>
+		<p>토글</p>
+	</div>
+	<br /><br />
 </body>
 </html>

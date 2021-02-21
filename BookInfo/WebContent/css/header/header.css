@@ -1,5 +1,98 @@
 @charset "UTF-8";
 
+* {
+	margin: 0;
+	padding: 0;
+}
+.header_a {
+	text-decoration: none;
+	display: inline-block;
+	width: 75px;
+	height: 35px;
+	text-align: center;
+	top: 10px;
+}
+.header_a:visited {
+	color : blue;
+}
+.main_header {
+	margin: 0 auto;
+	width: 960px;
+	height: 55px;
+	position: relative;
+}
+.main_logo {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+.main_search {
+	position: absolute;
+	top: 12.5px;
+	left: 130px;
+  	display: flex;
+  	flex-wrap: wrap;
+	align-content: center;
+}
+select {
+	height: 30px;
+}
+input[type=text] {
+	width: 450px;
+	height: 26px;
+}
+input[type=button] {
+	width: 70px;
+	height: 29px;
+}
 .main_form {
-	float: right;
+	position: absolute;
+	top: 15px;
+	left: 800px;
+}
+.main_user {
+	position: absolute;
+	top: 15px;
+	left: 860px;
+}
+.main_nav {
+	margin: 0 auto;
+	width: 960px;
+	height: 50px;
+	position: relative;
+}
+.main_category {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	border: 1px solid black;
+}
+.nav_a_category {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	padding: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+	left: 10px;
+}
+.nav_a_category:last-child {
+	margin-right: 340px;
+}
+.nav_a_category:visited {
+	color: black;
+}
+.main_page {
+	position: absolute;
+	top: 10px;
+	left: 790px;
+}
+.nav_a_page {
+	display: inline-block;
+	text-decoration: none;
+	color: blue;
+	padding: 3px;
+}
+.nav_a_page:visited {
+	color: blue;
 }
