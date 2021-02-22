@@ -93,19 +93,17 @@ public class FrontController extends HttpServlet {
 		}
 		
 		// template 사용시
-		/*
-		RequestDispatcher rd=null;
-		
-		if(viewPage !=null) {
-			if(viewPage.equals("/WEB-INF/views/member/idCheck.jsp")|| viewPage.equals("/WEB-INF/views/member/zipcode.jsp")) {
-				rd=request.getRequestDispatcher(viewPage);
-			}else {
-				request.setAttribute("viewPage", viewPage);
-				rd=request.getRequestDispatcher("/template/tempIndex.jsp");
-			}
-			rd.forward(request, response);
-		}
-		*/
+//		RequestDispatcher rd=null;
+//		
+//		if(viewPage !=null) {
+//			if(viewPage.equals("")|| viewPage.equals("")) {
+//				rd=request.getRequestDispatcher(viewPage);
+//			}else {
+//				request.setAttribute("viewPage", viewPage);
+//				rd=request.getRequestDispatcher("/template/main_view.jsp");
+//			}
+//			rd.forward(request, response);
+//		}
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

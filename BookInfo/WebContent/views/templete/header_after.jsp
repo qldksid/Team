@@ -29,7 +29,7 @@
 			</form>
 		</div>
 		<div class="main_user">
-			<%=name%>님 <!-- DB에서 데이터 받아와야함. -->
+			<p><%=name%>님</p> <!-- DB에서 데이터 받아와야함. -->
 		</div>
 	</div>
 	<div class="main_nav">

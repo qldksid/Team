@@ -13,9 +13,9 @@
 	<hr />
 	<div class="main_footer">
 		<div class="main_cust_service">
-			<a href="#">고객센터</a>
+			<a href="${root }/views/qna/qna_Main.do">고객센터</a>
 		</div>
-		<p>토글</p>
+		<p class="main_toggle">토글</p>
 	</div>
 	<br /><br />
 </body>
