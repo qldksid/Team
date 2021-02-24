@@ -12,10 +12,10 @@
 <body>
 	<hr />
 	<div class="main_footer">
-		<div class="main_cust_service">
-			<a href="${root }/views/qna/qna_Main.do"><b>고객센터</b></a>
+		<div class="cust_service">
+			<a href="${root }/views/qna/qna_Main.do" class="footer_a"><b>고객센터</b></a>
 		</div>
-		<p class="main_toggle">토글</p>
+		<p class="toggle">토글</p>
 	</div>
 	<br /><br />
 </body>

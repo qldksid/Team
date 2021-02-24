@@ -14,10 +14,10 @@
 </head>
 <body>
 	<div class="main_header">
-		<div class="main_logo">
+		<div class="logo">
 			<a href="#"><img src="http://placehold.it/80x40" /></a>
 		</div>
-		<div class="main_search">
+		<div class="search">
 			<select>
 				<option>통합검색</option>
 				<option>책검색</option>
@@ -28,17 +28,17 @@
 				<input type="button" value="검색" />
 			</form>
 		</div>
-		<div class="main_user">
+		<div class="user">
 			<p><b><%=name%>님</b></p> <!-- DB에서 데이터 받아와야함. -->
 		</div>
 	</div>
 	<div class="main_nav">
-		<div class="main_category">
-			<a href="#" class="nav_a_category"><b>목록1</b></a>
-			<a href="#" class="nav_a_category"><b>목록2</b></a>
-			<a href="#" class="nav_a_category"><b>목록3</b></a>
-			<a href="#" class="nav_a_category"><b>정보마당</b></a>
-			<a href="#" class="nav_a_category"><b>내서재</b></a>
+		<div class="category">
+			<a href="#" class="category_a"><b>목록1</b></a>
+			<a href="#" class="category_a"><b>목록2</b></a>
+			<a href="#" class="category_a"><b>목록3</b></a>
+			<a href="#" class="category_a"><b>정보마당</b></a>
+			<a href="#" class="category_a"><b>내서재</b></a>
 		</div>
 		<div class="main_page">
 			<a href="#" class="nav_a_page"><b>마이페이지</b></a>

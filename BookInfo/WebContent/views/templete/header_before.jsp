@@ -11,10 +11,10 @@
 </head>
 <body>
 	<div class="main_header">
-		<div class="main_logo">
+		<div class="logo">
 			<a href="#"><img src="http://placehold.it/80x40" /></a>
 		</div>
-		<div class="main_search">
+		<div class="search">
 			<select>
 				<option>통합검색</option>
 				<option>책검색</option>
@@ -25,9 +25,9 @@
 				<input type="button" value="검색" />
 			</form>
 		</div>
-		<div class="main_form">
-			<a href="#" class="header_a">회원가입</a>
-			<a href="#" class="header_a">로그인</a>
+		<div class="user_form">
+			<a href="#" class="user_a">회원가입</a>
+			<a href="#" class="user_a">로그인</a>
 		</div>	
 	</div>
 	<div class="main_nav">
