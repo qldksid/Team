@@ -32,11 +32,11 @@
 	</div>
 	<div class="main_nav">
 		<div class="main_category">
-			<a href="#" class="nav_a_category">목록1</a>
-			<a href="#" class="nav_a_category">목록2</a>
-			<a href="#" class="nav_a_category">목록3</a>
-			<a href="#" class="nav_a_category">정보마당</a>
-			<a href="#" class="nav_a_category">내서재</a>
+			<a href="#" class="nav_a_category"><b>목록1</b></a>
+			<a href="#" class="nav_a_category"><b>목록2</b></a>
+			<a href="#" class="nav_a_category"><b>목록3</b></a>
+			<a href="#" class="nav_a_category"><b>정보마당</b></a>
+			<a href="#" class="nav_a_category"><b>내서재</b></a>
 		</div>
 	</div>
 	<hr />

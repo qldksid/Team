@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+header {
+	background: #93DAFF;
+}
+
 section{
 	position:relative;
 	left:50%;
@@ -49,6 +53,10 @@ section header{
 	width:30px; height:50px;
 	background:red;
 	opacity: 50%;
+}
+
+footer {
+	background: #8c8c8c;
 }
 
 /* 도서 이미지랑 출판사*/

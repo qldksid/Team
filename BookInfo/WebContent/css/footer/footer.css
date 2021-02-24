@@ -20,6 +20,9 @@ a:visited {
 	top: 10px;
 	left: 805px;
 }
+b {
+	color: white;
+}
 .main_toggle {
 	position: absolute;
 	top: 10px;
